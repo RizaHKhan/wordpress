@@ -7,3 +7,9 @@
 2. Go to `./wp-content/themes/` and run `sudo chmod 777 ./`
    - Now you have permisson to make add/remove from this folder
 3. Clone the theme file
+4. You probably won't have permission to edit the folder so use this command (at your own risk)
+
+```
+sudo chmod -R 777 ./wp-content
+
+```
